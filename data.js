@@ -333,7 +333,7 @@ var APP_DATA = {
           "yaw": 0.31318573856631815,
           "pitch": 0.08987863233197757,
           "title": "Karl Gorath Audio",
-          "text": "<audio controls preload='metadata'><source src='audio/karl-gorath.mp3' type='audio/mpeg'></audio>"
+          "text": "Text"
         },
         {
           "yaw": -0.9195122360045431,
@@ -414,7 +414,7 @@ var APP_DATA = {
           "yaw": 0.3574799223994969,
           "pitch": 0.052427824498870734,
           "title": "Kitja Audio",
-          "text": "<audio controls preload='metadata'><source src='audio/kitja.mp3' type='audio/mpeg'></audio>"
+          "text": "Text"
         }
       ]
     },
@@ -465,7 +465,8 @@ var APP_DATA = {
           "yaw": -1.1737253478830265,
           "pitch": 0.05935095606703733,
           "title": "Putten Audio",
-          "text": "<audio controls preload='metadata'><source src='audio/putten.mp3' type='audio/mpeg'></audio>"
+          "text": "Text"
+        }
       ]
     },
     {
@@ -533,7 +534,8 @@ var APP_DATA = {
           "yaw": -1.6770486479568465,
           "pitch": 0.047046572598659964,
           "title": "Alphons Audio",
-          "text": "<p><strong>Audio: Alphons</strong></p><p><a href='audio/alphons.mp3' target='_blank' rel='noopener'>Falls der Player nicht lädt: Datei direkt öffnen</a></p><audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio>"
+          "text": "Text",
+          "audio": "media/Alphons.mp3"
         }
       ]
     },
@@ -602,7 +604,7 @@ var APP_DATA = {
           "yaw": 0.8137999490040375,
           "pitch": 0.06670752459146101,
           "title": "Nicht in meinem Garten Audio",
-          "text": "<audio controls preload='metadata'><source src='audio/not-in-my-backyard.mp3' type='audio/mpeg'></audio>"
+          "text": "Text"
         }
       ]
     },
@@ -769,7 +771,7 @@ var APP_DATA = {
           "yaw": -3.1090516280145373,
           "pitch": 0.018825469700676223,
           "title": "Paridaen",
-          "text": "<audio controls preload='metadata'><source src='audio/paridaen.mp3' type='audio/mpeg'></audio>"
+          "text": "Text"
         }
       ]
     },
