@@ -183,7 +183,8 @@ var APP_DATA = {
           "yaw": 0.8144389466853461,
           "pitch": 0.10418140616283367,
           "title": "Mutterliebe Audio",
-          "text": "Text"
+          "text": "<audio controls preload='metadata'><source src='audio/Motherly Love.mp3' type='audio/mpeg'></audio>"
+
         }
       ]
     },
