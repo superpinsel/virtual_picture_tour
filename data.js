@@ -466,7 +466,6 @@ var APP_DATA = {
           "pitch": 0.05935095606703733,
           "title": "Putten Audio",
           "text": "<audio controls preload='metadata'><source src='audio/putten.mp3' type='audio/mpeg'></audio>"
-        }
       ]
     },
     {
