@@ -534,7 +534,8 @@ var APP_DATA = {
           "yaw": -1.6770486479568465,
           "pitch": 0.047046572598659964,
           "title": "Alphons Audio",
-          "text": "Text"
+          "text": "Text",
+          "audio": "media/Alphons.mp3"
         }
       ]
     },
