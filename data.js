@@ -183,7 +183,9 @@ var APP_DATA = {
           "yaw": 0.8144389466853461,
           "pitch": 0.10418140616283367,
           "title": "Mutterliebe Audio",
-          "text": "<audio controls preload='metadata'><source src='audio/motherly-love.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
+          "text": "<p><strong>Audio: Mutterliebe</strong></p><p><a href='audio/motherly-love.mp3' target='_blank' rel='noopener'>Falls der Player nicht lädt: Datei direkt öffnen</a></p><audio controls preload='metadata'><source src='audio/motherly-love.mp3' type='audio/mpeg'></audio>"
+        }
+      ]
     },
     {
       "id": "3-rechts-1",
