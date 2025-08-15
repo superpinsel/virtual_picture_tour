@@ -533,7 +533,7 @@ var APP_DATA = {
           "yaw": -1.6770486479568465,
           "pitch": 0.047046572598659964,
           "title": "Alphons Audio",
-          "text": "<audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio>"
+          "text": "<p><strong>Audio: Alphons</strong></p><p><a href='audio/alphons.mp3' target='_blank' rel='noopener'>Falls der Player nicht lädt: Datei direkt öffnen</a></p><audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio>"
         }
       ]
     },
