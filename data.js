@@ -531,11 +531,10 @@ var APP_DATA = {
           "text": "Text"
         },
         {
-          "yaw": -1.6770486479568465,
-          "pitch": 0.047046572598659964,
-          "title": "Alphons Audio",
-          "text": "<audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio>"
-       
+           "yaw": -1.6770486479568465,
+           "pitch": 0.047046572598659964,
+           "title": "Alphons Audio",
+           "text": "<audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio>"
         }
       ]
     },
