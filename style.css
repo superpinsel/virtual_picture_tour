@@ -916,3 +916,36 @@ body.view-control-buttons .viewControlButton {
 
 /* Labels „German/English version“ immer fett */
 .info-hotspot .info-hotspot-text strong { font-weight: 700; }
+/* --- Info hotspot header & title — works with common Marzipano class names --- */
+
+/* Layout the header row */
+.hotspot--info .hotspot__header,
+.info .hotspot__header,
+.info-hotspot .info-hotspot-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+}
+
+/* Make sure the title is visible, wraps, and doesn't get cut off */
+.hotspot--info .hotspot__title,
+.info .hotspot__title,
+.info .title,
+.info-hotspot .info-hotspot-title {
+  display: block !important;
+  flex: 1 1 auto;
+  white-space: normal;
+  overflow: visible;
+  font-weight: 600;      /* subtle emphasis */
+  font-size: 16px;       /* a bit smaller for balance */
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* Keep the info “i” icon from overlapping the title */
+.hotspot--info .hotspot__icon,
+.info .hotspot__icon,
+.info-hotspot .info-hotspot-icon {
+  flex: 0 0 auto;
+}
