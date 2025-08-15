@@ -866,3 +866,7 @@ body.view-control-buttons .viewControlButton {
     letter-spacing: .2px;
   }
 }
+/* Make language section labels bold inside info hotspots */
+.info-hotspot .info-hotspot-text strong {
+  font-weight: 700;
+}
