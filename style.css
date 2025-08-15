@@ -889,3 +889,30 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot .info-hotspot-header { padding: 10px 42px 10px 38px; }
 .info-hotspot .info-hotspot-close { right: 10px; top: 8px; transform: scale(.9); }
 .info-hotspot .info-hotspot-header .icon { opacity: .85; transform: scale(.9); }
+/* — Info box layout — */
+.info-hotspot {
+  max-width: 640px;
+  width: min(92vw, 640px);
+}
+.info-hotspot .info-hotspot-title {
+  font-weight: 600;           /* nicht zu fett */
+  font-size: 16px;
+  line-height: 1.25;
+  white-space: normal;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;      /* max. 2 Zeilen, Rest abgeschnitten */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.info-hotspot .info-hotspot-text {
+  max-height: 60vh;           /* Scrollbereich */
+  overflow: auto;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.info-hotspot audio { width: 100%; display: block; }
+.info-hotspot .info-hotspot-text p:last-child { margin-bottom: 0; }
+
+/* Labels „German/English version“ immer fett */
+.info-hotspot .info-hotspot-text strong { font-weight: 700; }
