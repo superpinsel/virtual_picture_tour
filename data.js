@@ -176,13 +176,13 @@ var APP_DATA = {
         {
           "yaw": -0.4443287350307017,
           "pitch": -0.44430005527257777,
-          "title": "Mutterliebe// Motherly Ly - Tobias Dahmen",
-          "text": "<br>"
+          "title": "Mutterliebe/ Motherly Love - Tobias Dahmen",
+          "text": "<div style='font-size:13px; line-height:1.5; max-height:320px; overflow:auto'><p><strong>German version</strong></p><p>Simon Gronowski wurde 1931 in Ukkel, Belgien, in eine jüdische Familie geboren. Seine Eltern, Leon und Chana, betrieben das Lederwarengeschäft &#39;Au Sally&#39;. Simons Schwester Ita war sieben Jahre älter als er. Sie war eine ausgezeichnete Schülerin und spielte Klavier.</p><p>1942 tauchte die Familie Gronowski in einer kleinen Wohnung in Brüssel unter. Nach etwas mehr als sechs Monaten wurden Simon, Ita und ihre Mutter gefangengenommen und in die Dossinkazerne in Mechelen gebracht. Simons Vater war zum Zeitpunkt der Festnahme im Krankenhaus und entkam so der Verhaftung.</p><p>Nach fünf Wochen Gefangenschaft wurden Simon und seine Mutter am 19. April 1943 mit Transport XX (20) nach Auschwitz-Birkenau deportiert. Ita blieb zunächst in der Dossinkazerne, wurde schließlich aber ebenfalls deportiert.</p><p>Transport XX war ein besonderer Transport: Er ist der einzige Zug, der während der Deportationen von Widerstandskämpfern angehalten wurde. Unterwegs sprangen mehr als 200 Menschen aus dem Zug, darunter auch Simon, der von seiner Mutter aus dem Wagen gestoßen wurde.</p><p>Nach einer Nacht im Dunkeln und dank der Hilfe vieler Fremder wurde Simon für kurze Zeit wieder mit seinem Vater vereint. Sie überlebten den Krieg, versteckten sich getrennt und schrieben einander Briefe.</p><p>Simons Mutter und Schwester überlebten die Lager nicht. Als Simons Vater davon erfuhr, brach ihm das Herz; er starb kurz nach der Befreiung.</p><hr style='margin:10px 0;opacity:.35'><p><strong>English version</strong></p><p>The Jewish Simon Gronowski was born in 1931 in Ukkel, Belgium. His parents, Leon and Chana, operated a leather-goods store called &#39;Au Sally&#39;. Simon&#39;s sister, Ita, was seven years older. She was an exemplary student and played classical piano.</p><p>In 1942, the Gronowski family went into hiding in a small apartment in Brussels. After a little more than six months, Simon, Ita and their mother were captured and taken to the Dossinkazerne in Mechelen. Simon&#39;s father was hospitalised at the time of the arrest and thus avoided being taken.</p><p>After five weeks of detention, Transport XX (20) took Simon and his mother to Auschwitz-Birkenau on 19 April 1943. Ita initially remained in the Dossinkazerne, but was eventually deported as well.</p><p>Transport XX was unique: it is the only deportation train that was halted by resistance fighters. Along the way, more than 200 people jumped from the train — including Simon, who was pushed out of the wagon by his mother.</p><p>After a night wandering in the dark, and thanks to the help of many strangers, Simon was briefly reunited with his father. They survived the war, hiding separately, and wrote letters to each other.</p><p>Simon&#39;s mother and sister did not survive the camps. When his father learned of this, his heart broke; he died shortly after liberation.</p></div>"
         },
         {
           "yaw": 0.8144389466853461,
           "pitch": 0.10418140616283367,
-          "title": "Mutterliebe// Motherly Love Audio",
+          "title": "Mutterliebe/ Motherly Love Audio",
           "text": "<audio controls preload='metadata'><source src='audio/motherly-love.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
@@ -263,13 +263,13 @@ var APP_DATA = {
         {
           "yaw": -1.7938163813520127,
           "pitch": 0.1340546954695796,
-          "title": "Finten// Feints Audio",
+          "title": "Finten/ Feints Audio",
           "text": "<audio controls preload='metadata'><source src='audio/faints.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         },
         {
           "yaw": 3.0538349576778128,
           "pitch": -0.29219337900402564,
-          "title": "Finten// Feints - Wide Vercnocke",
+          "title": "Finten/ Feints - Wide Vercnocke",
           "text": "<div style='font-size:13px; line-height:1.5; max-height:320px;overflow:auto;line-height:1.45'><p><strong>German version</strong></p><p>Norbert Lopper wurde 1919 als zweites von fünf Kindern einer jüdischen Familie in Wien geboren. Die Familie lebte auf wenig Raum und daher waren die Kinder viel auf der Straße zum Spielen. Der junge Norbert war ein sehr talentierter Fußballspieler.</p><p>Als die Nazis 1938 Wien überfielen, floh Norbert nach Belgien. Kurz danach folgte ihm auch der Rest seiner Familie. Norbert unterstützte seine Familie finanziell durch das, was er als Fußballspieler verdiente. In seinem neuen Verein lernte er auch seine zukünftige Frau Rebecca kennen.</p><p>Während des Zweiten Weltkrieges wurden Norbert und Rebecca beide einberufen, um im Osten zu arbeiten'. Sie meldeten sich in der Dossinkazerne und kamen am 27. August 1943 in Auschwitz an, wo sie dann voneinander getrennt wurden. Ein paar Monate später wurde Rebecca ermordet.</p><p>Für Norbert war die Zwangsarbeit so schwer, dass er daran dachte, sich das Leben zu nehmen, indem er in einen der Elektrozäune des Lagers rannte. Auf seinem Weg zu dem Zaun wurde er – wie durch eine Fügung des Schicksals – für das sogenannte 'Kanada-Kommando' ausgewählt, wo die Arbeit weniger schwer war.</p><p>Eines Tages hob Norbert eine goldene Uhr auf, die er gefunden hatte. Der SS-Offizier Karl-Friedrich Höcker sah dies und schlug ihn mit seinem Schlagstock blutig. Dank der Fürsorge der anderen Gefangenen schaffte Norbert es aber, die vielen weiter darauffolgenden Schläge zu überleben.</p><hr style='margin:10px 0;opacity:.35'><p><strong>English version</strong></p><p>The Jewish Norbert Lopper was born in Vienne in 1919, as the second child in a line of five. The family lived in small quarters, and the children hung around in the streets a lot. Young Norbert was a very talented soccer player.</p><p>When the Nazis invaded Vienna in 1938, Norbert fled to Belgium. The rest of his family followed soon after. Norbert supported his family financially with what he earned as a soccer player. At his new club, he met his future wife, Rebecca.</p><p>During the Second World War, Norbert and Rebecca were summoned separately to work in the East. They reported at the Dossinkazerne and arrived in Auschwitz on 27 August 1942, where they were separated. Rebecca was murdered a few months later.</p><p>To Norbert, the physical labour was so heavy that he considered taking his own life by walking into the surrounding electrical wire. On his way to the fence, he was selected for the Kanada-Kommando, where labour was less heavy.</p><p>One day, Norbert picked up a gold watch he had found. SS officer Karl-Friedrich Höcker saw this and beat him bloody with a baton. Thanks to the care of other prisoners, Norbert survived the many ensuing beatings.</p></div>"
         }
       ]
@@ -414,7 +414,7 @@ var APP_DATA = {
           "yaw": 0.3574799223994969,
           "pitch": 0.052427824498870734,
           "title": "Kitja Audio",
-          "text": "Text"
+          "text": "<audio controls preload='metadata'><source src='audio/kitja.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
     },
@@ -465,7 +465,7 @@ var APP_DATA = {
           "yaw": -1.1737253478830265,
           "pitch": 0.05935095606703733,
           "title": "Putten Audio",
-          "text": "Text"
+          "text": "<audio controls preload='metadata'><source src='audio/putten.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
     },
@@ -603,7 +603,7 @@ var APP_DATA = {
           "yaw": 0.8137999490040375,
           "pitch": 0.06670752459146101,
           "title": "Nicht in meinem Garten Audio",
-          "text": "Text"
+          "text": "<audio controls preload='metadata'><source src='audio/not-in-my-backyarden.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
     },
@@ -851,12 +851,12 @@ var APP_DATA = {
           "yaw": -2.481479387864523,
           "pitch": 0.05733574808292374,
           "title": "Hofnar Audio",
-          "text": "Text"
+          "text": "<audio controls preload='metadata'><source src='audio/hofnar.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         },
         {
           "yaw": 2.81133036060414,
           "pitch": -0.3315702374186973,
-          "title": "Hofnar",
+          "title": "Hofnar - Jennifer Daniel",
           "text": "Text"
         }
       ]
@@ -907,14 +907,14 @@ var APP_DATA = {
         {
           "yaw": -2.280451755204858,
           "pitch": -0.33616617655185976,
-          "title": "Gaswagen",
+          "title": "Gaswagen/ Gas wagon - Guido van Driel",
           "text": "Text"
         },
         {
           "yaw": -1.0344944280939075,
           "pitch": 0.08531016588539408,
           "title": "Gaswagen Audio",
-          "text": "Text"
+          "text": "<audio controls preload='metadata'><source src='audio/gaswagen.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
     },
