@@ -183,7 +183,7 @@ var APP_DATA = {
           "yaw": 0.8144389466853461,
           "pitch": 0.10418140616283367,
           "title": "Mutterliebe Audio",
-          "text": "<p><strong>Audio: Mutterliebe</strong></p><p><a href='audio/mutterliebe.mp3' target='_blank' rel='noopener'>Falls der Player nicht lädt: Datei direkt öffnen</a></p><audio controls preload='metadata'><source src='audio/mutterliebe.mp3' type='audio/mpeg'></audio>"
+          "text": "<p><strong>Audio: Mutterliebe</strong></p><p><a href='Audiofiles/motherlylove.mp3' target='_blank' rel='noopener'>Falls der Player nicht lädt: Datei direkt öffnen</a></p><audio controls preload='metadata'><source src='audio/mutterliebe.mp3' type='audio/mpeg'></audio>"
         }
       ]
     },
