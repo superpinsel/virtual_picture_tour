@@ -536,7 +536,6 @@ var APP_DATA = {
           "title": "Alphons Audio",
           "text": "<audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
           }
-        }
       ]
     },
     {
