@@ -183,7 +183,7 @@ var APP_DATA = {
           "yaw": 0.8144389466853461,
           "pitch": 0.10418140616283367,
           "title": "Mutterliebe Audio",
-          "text": "<p><strong>Audio: Mutterliebe</strong></p><p><a href='audio/motherly-love.mp3' target='_blank' rel='noopener'>Falls der Player nicht lädt: Datei direkt öffnen</a></p><audio controls preload='metadata'><source src='audio/motherly-love.mp3' type='audio/mpeg'></audio>"
+          "text": "<audio controls preload='metadata'><source src='audio/motherly-love.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
     },
@@ -530,12 +530,12 @@ var APP_DATA = {
           "title": "Alphons",
           "text": "Text"
         },
-        {
+          {
           "yaw": -1.6770486479568465,
           "pitch": 0.047046572598659964,
           "title": "Alphons Audio",
-          "text": "Text",
-          "audio": "media/Alphons.mp3"
+          "text": "<audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
+          }
         }
       ]
     },
