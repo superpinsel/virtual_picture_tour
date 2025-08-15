@@ -856,3 +856,13 @@ body.view-control-buttons .viewControlButton {
   .info-hotspot { width: 92vw; }
   .info-hotspot .info-hotspot-text { max-height: 60vh; }
 }
+.info-hotspot .info-hotspot-text strong {
+  font-weight: 700;
+}
+
+@media (min-width: 800px) {
+  .info-hotspot .info-hotspot-text strong {
+    font-weight: 800;
+    letter-spacing: .2px;
+  }
+}
