@@ -528,16 +528,14 @@ var APP_DATA = {
           "yaw": 3.132833725692681,
           "pitch": -0.31695911361861917,
           "title": "Alphons",
-          "text": "<p>This is a story about Alphons.</p>
-<p><a href='media/Alphons.mp3' target='_blank' rel='noopener'>
-            
+          "text": "Text"
         },
         {
           "yaw": -1.6770486479568465,
           "pitch": 0.047046572598659964,
           "title": "Alphons Audio",
-          "text": "Text",
-          "audio": "media/Alphons.mp3"
+          "text": <p><strong>Audio: Alphons</strong></p><p><a href='Audiofiles/Alphons.mp3' target='_blank' rel='noopener'>Falls der Player nicht lädt: Datei direkt öffnen</a></p><audio controls preload='metadata'><source src='audio/Alphons.mp3' type='audio/mpeg'></audio>"
+       
         }
       ]
     },
