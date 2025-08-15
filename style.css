@@ -870,3 +870,22 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot .info-hotspot-text strong {
   font-weight: 700;
 }
+/* Compact header for all info boxes */
+.info-hotspot .info-hotspot-title {
+  font-weight: 600;            /* nicht mehr ultraschwer */
+  font-size: 16px;             /* kleiner */
+  line-height: 1.25;
+  white-space: normal;         /* umbrechen statt zu lang */
+  word-break: break-word;
+
+  /* 2-Zeilen-Ellipsis (sauberer Look) */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;       /* bis zu 2 Zeilen */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* etwas luftigere Header-Leiste & dezente Icons */
+.info-hotspot .info-hotspot-header { padding: 10px 42px 10px 38px; }
+.info-hotspot .info-hotspot-close { right: 10px; top: 8px; transform: scale(.9); }
+.info-hotspot .info-hotspot-header .icon { opacity: .85; transform: scale(.9); }
