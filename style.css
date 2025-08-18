@@ -1030,3 +1030,37 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot .info-hotspot-close-wrapper {
   left: 260px;  /* 40 (icon) + 220 (title) */
 }
+/* ---- Restore hotspot titles ---- */
+.info-hotspot .info-hotspot-header {
+  /* go back to the original block layout */
+  display: block;      /* undo flex */
+  padding: 0;          /* default spacing */
+}
+
+/* always show the title strip (no collapsing) */
+.info-hotspot .info-hotspot-title-wrapper {
+  position: absolute;
+  left: 40px;
+  top: 0;
+  height: 40px;
+  width: 220px !important;
+  padding: 0 5px !important;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* title styling */
+.info-hotspot .info-hotspot-title {
+  display: block !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;       /* vertically centered in the 40px header */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* keep the close button positioned correctly next to the 220px title area */
+.info-hotspot .info-hotspot-close-wrapper {
+  left: 260px;  /* 40 (icon) + 220 (title) */
+}
