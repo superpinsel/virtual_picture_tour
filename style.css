@@ -1064,3 +1064,46 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot .info-hotspot-close-wrapper {
   left: 260px;  /* 40 (icon) + 220 (title) */
 }
+/* --- HOTSPOT TITLE REPAIR --- */
+.info-hotspot .info-hotspot-header{
+  position: relative !important;
+  width: 360px !important;           /* header width */
+  border-radius: 5px !important;
+}
+
+/* keep same width when opened/hovered */
+.desktop .info-hotspot.visible .info-hotspot-header,
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover{
+  width: 360px !important;
+}
+
+/* put the X on the far right, independent of header width */
+.info-hotspot .info-hotspot-close-wrapper{
+  left: auto !important;
+  right: 0 !important;
+}
+
+/* stretch the title area between the “i” icon (40px) and the X (40px) */
+.info-hotspot .info-hotspot-title-wrapper{
+  position: absolute !important;
+  top: 0 !important;
+  left: 40px !important;
+  right: 40px !important;
+  height: 40px !important;
+  width: auto !important;
+  padding: 0 6px !important;
+  overflow: hidden !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* show the actual title text */
+.info-hotspot .info-hotspot-title{
+  display: block !important;
+  line-height: 40px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
