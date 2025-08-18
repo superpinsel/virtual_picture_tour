@@ -2200,3 +2200,68 @@ body.view-control-buttons .viewControlButton {
 @media (max-width: 600px){
   :root { --hotspot-width: 92vw; }
 }
+/* === Info-hotspot title + width fix === */
+:root { --hsw: 420px; }                /* one knob for hotspot width */
+
+.info-hotspot .info-hotspot-header {
+  position: relative !important;
+  z-index: 3 !important;
+  width: var(--hsw) !important;
+  height: 40px !important;
+  border-radius: 5px 5px 0 0 !important;
+}
+
+/* keep the same width when opened / hovered */
+.desktop .info-hotspot.visible .info-hotspot-header,
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover {
+  width: var(--hsw) !important;
+}
+
+.info-hotspot .info-hotspot-text {
+  position: absolute !important;
+  top: 40px !important;
+  left: 0 !important;
+  width: var(--hsw) !important;
+  max-height: 65vh !important;
+  z-index: 2 !important;
+  overflow: auto;
+}
+
+/* close button pinned to the right edge of the header */
+.info-hotspot .info-hotspot-close-wrapper {
+  left: auto !important;
+  right: 0 !important;
+}
+
+/* make the title area fill between the “i” (40px) and the X (40px) */
+.info-hotspot .info-hotspot-title-wrapper {
+  position: absolute !important;
+  top: 0 !important;
+  left: 40px !important;
+  right: 40px !important;
+  height: 40px !important;
+  width: auto !important;
+  padding: 0 6px !important;
+  overflow: hidden !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 4 !important;
+}
+
+/* readable title */
+.info-hotspot .info-hotspot-title {
+  display: block !important;
+  line-height: 40px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  color: #fff !important;
+  text-shadow: 0 1px 1px rgba(0,0,0,.35);
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
+
+/* mobile: make it fluid */
+@media (max-width: 600px){
+  :root { --hsw: 92vw; }
+}
