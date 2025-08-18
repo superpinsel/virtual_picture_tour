@@ -1107,3 +1107,65 @@ body.view-control-buttons .viewControlButton {
   text-overflow: ellipsis !important;
   overflow: hidden !important;
 }
+/* === HOTSPOT TITLE + WIDTH FIX (put at very end) === */
+:root { --hotspot-width: 420px; }   /* change once if you want wider/narrower */
+
+/* Header: fixed width, correct stacking, rounded top corners */
+.info-hotspot .info-hotspot-header{
+  position: relative !important;
+  width: var(--hotspot-width) !important;
+  height: 40px !important;
+  border-radius: 5px 5px 0 0 !important;
+}
+
+/* Keep same width when opened/hovered */
+.desktop .info-hotspot.visible .info-hotspot-header,
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover{
+  width: var(--hotspot-width) !important;
+}
+
+/* Text panel: same width as header */
+.info-hotspot .info-hotspot-text{
+  width: var(--hotspot-width) !important;
+  max-height: 65vh;                 /* scroll area */
+  overflow: auto;
+}
+
+/* Close button always on the far right */
+.info-hotspot .info-hotspot-close-wrapper{
+  left: auto !important;
+  right: 0 !important;
+}
+
+/* Title area stretches between “i” (40px) and the X (40px) */
+.info-hotspot .info-hotspot-title-wrapper{
+  position: absolute !important;
+  top: 0 !important;
+  left: 40px !important;
+  right: 40px !important;
+  height: 40px !important;
+  width: auto !important;
+  padding: 0 6px !important;
+  overflow: hidden !important;
+  z-index: 2 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Make title actually readable */
+.info-hotspot .info-hotspot-title{
+  display: block !important;
+  line-height: 40px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  color: #fff !important;
+  text-shadow: 0 1px 1px rgba(0,0,0,.35);
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
+
+/* Mobile tweak */
+@media (max-width: 600px){
+  :root { --hotspot-width: 92vw; }
+}
