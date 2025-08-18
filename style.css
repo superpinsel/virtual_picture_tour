@@ -2265,3 +2265,62 @@ body.view-control-buttons .viewControlButton {
 @media (max-width: 600px){
   :root { --hsw: 92vw; }
 }
+/* === Restore ORIGINAL Marzipano bubble header === */
+.info-hotspot .info-hotspot-header {
+  display: block !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 20px !important;
+  padding: 0 !important;                 /* no extra length */
+}
+
+/* expand to the normal strip on hover or when open */
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover,
+.desktop .info-hotspot.visible .info-hotspot-header,
+.desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover {
+  width: 260px !important;
+  border-radius: 5px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+/* title area: original size & behavior */
+.info-hotspot .info-hotspot-title-wrapper {
+  position: absolute;
+  left: 40px;
+  top: 0;
+  height: 40px;
+  width: 220px !important;
+  padding: 0 5px !important;
+  overflow: hidden;
+}
+
+.info-hotspot .info-hotspot-title {
+  display: inline-block !important;
+  line-height: 40px !important;          /* vertically centered */
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+/* close button aligned to the header width (260 = 40 icon + 220 title) */
+.info-hotspot .info-hotspot-close-wrapper {
+  left: 260px !important;
+  width: 40px;
+  height: 40px;
+}
+
+/* keep your nicer, bigger content area */
+.info-hotspot .info-hotspot-text {
+  max-height: 65vh;          /* your scroll height */
+  overflow: auto;
+  font-size: 13px;
+  line-height: 1.55;
+  width: 300px;              /* matches header (260 + 40) */
+}
+
+/* keep labels bold */
+.info-hotspot .info-hotspot-text strong { font-weight: 700; }
