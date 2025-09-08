@@ -185,12 +185,6 @@ var APP_DATA = {
           "title": "Mutterliebe/ Motherly Love Audio",
           "text": "<audio controls preload='metadata'><source src='audio/motherly-love.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
-        {
-          "yaw": -0.4443287350307017,
-          "pitch": -0.44430005527257777,
-          "title": "Mutterliebe/ Motherly Love - Tobias Dahmen",
-          "text": "<img src='img_extras/NDS_5128.JPG' alt='Motherly Love' style='width:100%;margin-bottom:8px;' /><div style='font-size:13px; line-height:1.5; max-height:320px; overflow:auto'><p><strong>German version</strong></p><p>Simon Gronowski wurde 1931 in Ukkel, Belgien, in eine jüdisch[...]" 
-        },
       ]
     },
     {
