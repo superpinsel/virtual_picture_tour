@@ -598,32 +598,18 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -0.47390259828307535,
-          "pitch": -0.3019588842391947,
-          "title": "Not in my Backyard ",
-          "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'>
-  <p><strong>German version</strong></p>
-  <p>Am 9. Oktober 1939 wurde das Zentrale Flüchtlingslager durch die Ankunft von 22 Flüchtlingen eröffnet. Diese Maßnahme war das letzte Kapitel einer monatelangen Suche nach einem geeigneten Standort für das sogenannte 'Judenlager'.</p>
-  <p>Westerbork wurde von der Niederländisch-Jüdischen Gemeinschaft finanziert und den Flüchtlingen als ein Lager im ‚wunderschönen Drenthe‘ mit rustikalen Holzbaracken, Zentralheizung und modernen Sanitäranlagen präsentiert. Es wuchs nach seiner Eröffnung rasch an.</p>
-  <p>Ende Januar 1940 hatte das Lager 167 Einwohner; drei Monate später lebten fast 750 Flüchtlinge dort. Nur wenige der Versprechen über die guten Bedingungen wurden eingehalten, und die Einwohner nahmen ihre Unterkunft zunehmend als Konzentrationslager wahr.</p>
-  <p>Das Zentrale Flüchtlingslager Westerbork blieb bis zum 1. Juli 1942 bestehen. Dann übernahmen die Nationalsozialisten das Lager und Westerbork wurde ein Durchgangslager, das für die Deportationen von über 100.000 Menschen ‚in den Osten‘ genutzt wurde.</p>
-  <p>Nur wenige der tausenden jüdischen Flüchtlinge, die sich 1939–1942 in Westerbork aufhalten mussten, überlebten den Zweiten Weltkrieg.</p>
-  <hr style='margin:10px 0; opacity:.35'>
-  <p><strong>English version</strong></p>
-  <p>On 9 October 1939, the Central Refugee Camp Westerbork was opened with the arrival of 22 Jewish refugees. The commissioning was the closing chapter of a months-long search for a suitable location for the so-called ‘Jew camp’.</p>
-  <p>Camp Westerbork, financed by the Dutch-Jewish community and presented to the refugees as a camp in ‘beautiful Drenthe’ with crisp wooden barracks equipped with central heating and excellent sanitary facilities, grew rapidly after opening.</p>
-  <p>At the end of January 1940, the number of residents had amounted to 167; three months later, nearly 750 refugees resided there. Few of the promises about good facilities were actually kept, and residents increasingly experienced their accommodations as a concentration camp.</p>
-  <p>Central Refugee Camp Westerbork continued to exist until 1 July 1942. At that point, the Nazis took over the camp, and Westerbork became a Durchgangslager used for the deportation of more than 100,000 people to the camps ‘in the East’.</p>
-  <p>Of the few thousand Jewish refugees who resided in Camp Westerbork in the period 1939–1942, only a small number survived the Second World War.</p>
-</div>"
-        },
-        {
-          "yaw": 0.8137999490040375,
-          "pitch": 0.06670752459146101,
-          "title": "Not in my Backyard (2:17 min)",
-          "text": "<audio controls preload='metadata'><source src='audio/not-in-my-backyarden.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
-        }
+  {
+    "yaw": -0.47390259828307535,
+    "pitch": -0.3019588842391947,
+    "title": "Not in my Backyard",
+    "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>German version</strong></p><p>Am 9. Oktober 1939 wurde das Zentrale Flüchtlingslager durch die Ankunft von 22 Flüchtlingen eröffnet. Diese Maßnahme war das letzte Kapitel einer monatelangen Suche nach einem geeigneten Standort für das sogenannte 'Judenlager'.</p><p>Westerbork wurde von der Niederländisch-Jüdischen Gemeinschaft finanziert und den Flüchtlingen als ein Lager im ‚wunderschönen Drenthe‘ mit rustikalen Holzbaracken, Zentralheizung und modernen Sanitäranlagen präsentiert. Es wuchs nach seiner Eröffnung rasch an.</p><p>Ende Januar 1940 hatte das Lager 167 Einwohner; drei Monate später lebten fast 750 Flüchtlinge dort. Nur wenige der Versprechen über die guten Bedingungen wurden eingehalten, und die Einwohner nahmen ihre Unterkunft zunehmend als Konzentrationslager wahr.</p><p>Das Zentrale Flüchtlingslager Westerbork blieb bis zum 1. Juli 1942 bestehen. Dann übernahmen die Nationalsozialisten das Lager und Westerbork wurde ein Durchgangslager, das für die Deportationen von über 100.000 Menschen ‚in den Osten‘ genutzt wurde.</p><p>Nur wenige der tausenden jüdischen Flüchtlinge, die sich 1939–1942 in Westerbork aufhalten mussten, überlebten den Zweiten Weltkrieg.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>On 9 October 1939, the Central Refugee Camp Westerbork was opened with the arrival of 22 Jewish refugees. The commissioning was the closing chapter of a months-long search for a suitable location for the so-called ‘Jew camp’.</p><p>Camp Westerbork, financed by the Dutch-Jewish community and presented to the refugees as a camp in ‘beautiful Drenthe’ with crisp wooden barracks equipped with central heating and excellent sanitary facilities, grew rapidly after opening.</p><p>At the end of January 1940, the number of residents had amounted to 167; three months later, nearly 750 refugees resided there. Few of the promises about good facilities were actually kept, and residents increasingly experienced their accommodations as a concentration camp.</p><p>Central Refugee Camp Westerbork continued to exist until 1 July 1942. At that point, the Nazis took over the camp, and Westerbork became a Durchgangslager used for the deportation of more than 100,000 people to the camps ‘in the East’.</p><p>Of the few thousand Jewish refugees who resided in Camp Westerbork in the period 1939–1942, only a small number survived the Second World War.</p></div>"
+  },
+  {
+    "yaw": 0.8137999490040375,
+    "pitch": 0.06670752459146101,
+    "title": "Not in my Backyard (2:17 min)",
+    "text": "<audio controls preload='metadata'><source src='audio/not-in-my-backyarden.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
+  }
       ]
     },
     {
