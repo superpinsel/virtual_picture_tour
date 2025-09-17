@@ -967,3 +967,45 @@ body.view-control-buttons .viewControlButton {
 @media (max-width: 800px) {
   :root { --textHotspotW: 92vw; }
 }
+
+/* === Uniform header behavior for info-hotspots (audio + text) === */
+:root{
+  --headerClosedW: 360px;             /* width of the grey header when CLOSED/hover */
+  --titleSlotW: calc(var(--headerClosedW) - 40px); /* 40px icon + title area */
+  --textBoxW: min(33.333vw, 780px);   /* wide text boxes when OPEN (texts only) */
+}
+
+/* 1) Always show titles next to the “i” icon for ALL hotspots (audio + text) */
+.info-hotspot .info-hotspot-title-wrapper{
+  width: var(--titleSlotW) !important;
+  padding: 0 5px !important;
+}
+
+/* Closed header width (and on hover while closed) — keep it compact */
+.desktop .info-hotspot .info-hotspot-header,
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover{
+  width: var(--headerClosedW) !important;
+  border-radius: 5px;
+}
+
+/* Close button aligned to the right edge of the compact header */
+.info-hotspot .info-hotspot-close-wrapper{
+  left: var(--headerClosedW) !important;
+}
+
+/* 2) When a TEXT hotspot is OPEN, make the header match the wide text box */
+.desktop .info-hotspot.visible:not(:has(audio)) .info-hotspot-header{
+  width: var(--textBoxW) !important;
+}
+
+/* Title area fills the open header’s width (minus icon) for TEXT hotspots */
+.info-hotspot.visible:not(:has(audio)) .info-hotspot-title-wrapper{
+  width: calc(var(--textBoxW) - 40px) !important;
+}
+
+/* Close button aligned with the open TEXT width */
+.info-hotspot.visible:not(:has(audio)) .info-hotspot-close-wrapper{
+  left: var(--textBoxW) !important;
+}
+
+/* Keep audio hotspot content at default width; only its title shows now */
