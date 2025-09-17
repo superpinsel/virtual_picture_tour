@@ -933,3 +933,37 @@ body.view-control-buttons .viewControlButton {
   width: 220px !important;
   padding: 0 5px !important;
 }
+/* ===== Nur Text-Infoboxen: halbe Bildschirmbreite ===== */
+:root {
+  /* 1/3 der Bildschirmbreite, mit sinnvollem Cap */
+  --textHotspotW: min(33.333vw, 780px);
+}
+
+/* Inhaltspanel (der dunkle Textkasten) */
+.info-hotspot:not(:has(audio)) .info-hotspot-text {
+  width: var(--textHotspotW);
+  max-height: 80vh;   /* optional */
+}
+
+/* Hover-/Offen-Header oben (graues i-Band) */
+.desktop.no-touch .info-hotspot:not(:has(audio)) .info-hotspot-header:hover,
+.desktop .info-hotspot.visible:not(:has(audio)) .info-hotspot-header,
+.desktop.no-touch .info-hotspot.visible:not(:has(audio)) .info-hotspot-header:hover {
+  width: var(--textHotspotW);
+}
+
+/* Titelbereich im Header (rechts neben dem i-Icon) */
+.info-hotspot:not(:has(audio)) .info-hotspot-title-wrapper {
+  width: calc(var(--textHotspotW) - 40px); /* 40px = i-Icon-Breite */
+  padding: 0 5px;
+}
+
+/* Close-Button an den neuen rechten Rand schieben */
+.info-hotspot:not(:has(audio)) .info-hotspot-close-wrapper {
+  left: var(--textHotspotW);
+}
+
+/* Mobile: lieber fast volle Breite behalten (optional) */
+@media (max-width: 800px) {
+  :root { --textHotspotW: 92vw; }
+}
