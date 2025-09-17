@@ -870,3 +870,38 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot .info-hotspot-text strong {
   font-weight: 600;
 }
+/* === Einheitliche Breite für Info-Hotspots (ein Wert steuert alles) === */
+.info-hotspot { --hotspotW: 800px; }               /* <- HIER Breite ändern */
+
+/* Headerbreite = Gesamtbreite minus 40px für den Close-Button */
+.desktop .info-hotspot.visible .info-hotspot-header,
+.desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover {
+  width: calc(var(--hotspotW) - 40px) !important;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Close-Button direkt rechts neben den Header setzen */
+.info-hotspot .info-hotspot-close-wrapper {
+  left: calc(var(--hotspotW) - 40px) !important;
+}
+
+/* Textbox auf die volle Zielbreite bringen (überschreibt die 300px) */
+.info-hotspot .info-hotspot-text {
+  width: var(--hotspotW) !important;
+  max-height: 70vh;
+  overflow: auto;
+}
+
+/* Titelbereich im Header auf volle Headerbreite strecken */
+.desktop .info-hotspot.visible .info-hotspot-title-wrapper,
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
+  width: calc(var(--hotspotW) - 80px) !important;  /* Header – 40px Icon links – 40px Rand rechts */
+  padding: 0 5px !important;
+}
+
+/* Optional: mobil automatisch anpassen */
+@media (max-width: 700px) {
+  .info-hotspot { --hotspotW: 92vw; }
+}
