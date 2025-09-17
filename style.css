@@ -831,7 +831,7 @@ body.view-control-buttons .viewControlButton {
 /* === Bigger Info Hotspots (global) === */
 .info-hotspot {
   /* Breite */
-  max-width: 800px;           /* vorher ~320px */
+  max-width: 650px;           /* vorher ~320px */
   width: min(92vw, 800px);    /* auf kleinen Screens nicht überlaufen */
 }
 
@@ -852,7 +852,7 @@ body.view-control-buttons .viewControlButton {
 }
 
 /* Mobile-Feinschliff */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .info-hotspot { width: 92vw; }
   .info-hotspot .info-hotspot-text { max-height: 60vh; }
 }
