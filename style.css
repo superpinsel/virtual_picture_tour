@@ -1013,8 +1013,8 @@ body.view-control-buttons .viewControlButton {
 /* ===== Info-hotspot: consistent widths + audio vs text sizing ===== */
 /* Tweak these two numbers only */
 :root{
-  --hotspotTextW: 560px;   /* width for text hotspots (header + body) */
-  --hotspotAudioW: 380px;  /* width for audio hotspots (header + body) */
+  --hotspotTextW: 500px;   /* width for text hotspots (header + body) */
+  --hotspotAudioW: 360px;  /* width for audio hotspots (header + body) */
 }
 
 /* 0) keep the small round bubble by default (closed, not hovered) */
