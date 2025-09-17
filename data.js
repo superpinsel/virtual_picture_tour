@@ -775,7 +775,7 @@ var APP_DATA = {
           "yaw": -3.1090516280145373,
           "pitch": 0.018825469700676223,
           "title": "Paridaen (1:43 min)",
-          "text": "<audio controls preload='metadata'><source src='audio/paridean.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
+          "text": "<audio controls preload='metadata'><source src='audio/paridaen.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         },
       ]
     },
