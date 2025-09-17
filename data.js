@@ -855,14 +855,14 @@ var APP_DATA = {
         {
           "yaw": -2.481479387864523,
           "pitch": 0.05733574808292374,
-          "title": "Hofnar Audio",
+          "title": "Hofnar (4:34 min)",
           "text": "<audio controls preload='metadata'><source src='audio/hofnar.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         },
         {
           "yaw": 2.81133036060414,
           "pitch": -0.3315702374186973,
-          "title": "Hofnar - Jennifer Daniel",
-          "text": "Text"
+          "title": "Hofnar by Jennifer Daniel",
+          "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>Dutch version</strong></p><p>De bijzondere naoorlogse ontmoeting in een tabakswinkel in Düsseldorf, die in deze strip wordt gedramatiseerd, tussen de Joodse Holocaust-overlevende Lex van Weren (1920) en de voormalige commandant van kamp Westerbork, Albert Konrad Gemmeker (1907), heeft echt plaatsgevonden.</p><p>Gemmeker, verantwoordelijk voor de deportatie en moord op ruim 70.000 Joden, Sinti en Roma, kreeg na de oorlog een milde gevangenisstraf opgelegd. In de jaren &#39;50 keerde hij terug naar zijn geboorteplaats Düsseldorf, waar hij in een tabakswinkel ging werken.</p><p>Muzikant Lex van Weren werd in 1943 vanuit kamp Westerbork naar Auschwitz-Birkenau gedeporteerd. Door te dienen in het kamporkest van Auschwitz en te moeten spelen voor bewakers, wist hij de oorlog te overleven.</p><p>In de jaren &#39;70 bezocht Van Weren, zich ervan bewust dat zijn oude commandant daar werkte, Gemmeker in de tabakswinkel in Düsseldorf, op zoek naar wraak voor alles wat hem was aangedaan. De voormalige Obersturmführer bediende hem met tegenzin, zichtbaar ongemakkelijk tijdens deze bezoeken.</p><p>Albert Konrad Gemmeker stierf in 1982. Lex van Weren overleed veertien jaar later, in 1996.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>Though dramatised in this comic, the extraordinary post-war encounter in a tobacco store in Düsseldorf between the Jewish Holocaust survivor Lex van Weren (1920) and the former commander of Camp Westerbork, Albert Konrad Gemmeker (1907), really took place.</p><p>Gemmeker — responsible for deporting more than 70,000 Jews, Sinti, and Roma — received a lenient 10-year sentence after the war, of which he served only six. In the 1950s, he returned to his hometown Düsseldorf, where he worked in a tobacco shop.</p><p>Musician Lex van Weren was deported from Camp Westerbork to Auschwitz-Birkenau in 1943. By performing in the Auschwitz camp orchestra and having to play for guards, he managed to survive the war.</p><p>In the 1970s, Van Weren, aware that his old commander was working there, visited Gemmeker at the tobacco shop in Düsseldorf, seeking revenge for everything done to him. The former Obersturmführer reluctantly served him, visibly uneasy during these visits.</p><p>Albert Konrad Gemmeker died in 1982. Lex van Weren passed away fourteen years later, in 1996.</p></div>"
         }
       ]
     },
@@ -912,13 +912,13 @@ var APP_DATA = {
         {
           "yaw": -2.280451755204858,
           "pitch": -0.33616617655185976,
-          "title": "Gaswagen/ Gas wagon - Guido van Driel",
-          "text": "Text"
+          "title": "Gas wagon by Guido van Driel",
+          "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>German version</strong></p><p>Am 5. Juni 1942 schickte Willi Just, der Leiter der Werkstatt, in welcher Lastwagen in mobile Gaskammern umgebaut wurden, Verbesserungsvorschläge an Walter Rauff, den Verantwortlichen für die Produktion der Lastwagen. Diese Dokumente bildeten die Inspirationsquelle für die Arbeit von Guido van Driel und sind in die Erzählung mit aufgenommen.</p><p>Die von Guido dargestellten Gaswagen wurden vor allem im Vernichtungslager Chelmno benutzt, aber auch in anderen Teilen der von Deutschland besetzten Gebiete eingesetzt. Sie blieben in Betrieb, bis Gaskammern entwickelt wurden. Die Werbung für das Geschäft &#39;Kaisers Kaffee&#39;, die sich an den Seiten der Wagen befand, sollte die Opfer und die Anwohner Chelmnos täuschen.</p><p>Die Leichen der Männer, Frauen und Kinder, welche in Chelmno ermordet wurden, wurden anschließend in Massengräbern in den Wäldern Rzuchow gelagert und später in offenen Krematorien verbrannt. Eine genaue Zahl der Menschen, die auf diese Art umgebracht wurden, ist unbekannt. Die Schätzungen gehen jedoch in die Hunderttausende.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>On 5 June 1942, Willi Just, the leader of the workshop where trucks were converted into mobile gas chambers, sent recommendations for improvements to Walter Rauff, responsible for the production of the trucks. These recommendations were the inspiration for Guido van Driel&#39;s work. He integrated the text of the recommendations into the comic.</p><p>The gas wagons depicted by Guido were mostly used in the extermination camp Chelmno, but they were deployed in other parts of the areas occupied by Nazi Germany as well. They remained in operation until gas chambers were developed. The advertisement for &#39;Kaiser&#39;s Kaffee&#39; on the side of the trucks served to deceive the victims and local residents of Chelmno.</p><p>The bodies of the men, women, and children murdered in Chelmno were subsequently deposited in mass graves in the woods of Rzuchow, and later burned in open crematoriums. This mostly concerned Jews and Sinti and Roma coming from the Lodz ghetto. The exact number of people murdered in this way is unknown. The estimates speak of hundreds of thousands.</p></div>"
         },
         {
           "yaw": -1.0344944280939075,
           "pitch": 0.08531016588539408,
-          "title": "Gaswagen Audio",
+          "title": "Gaswagen (2:07 min)",
           "text": "<audio controls preload='metadata'><source src='audio/gaswagen.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
