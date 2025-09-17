@@ -922,10 +922,10 @@ body.view-control-buttons .viewControlButton {
 /* Header & Close-Button passend zur schmalen Box */
 .desktop .info-hotspot.visible:has(audio) .info-hotspot-header,
 .desktop.no-touch .info-hotspot.visible:has(audio) .info-hotspot-header:hover {
-  width: 320px !important;
+  width: 340px !important;
 }
 .info-hotspot:has(audio) .info-hotspot-close-wrapper {
-  left: 320px !important;
+  left: 340px !important;
 }
 /* Titel-Streifen */
 .desktop .info-hotspot.visible:has(audio) .info-hotspot-title-wrapper,
