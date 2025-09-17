@@ -406,11 +406,12 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -0.4918067532486443,
-          "pitch": -0.27354274228089537,
-          "title": "Kitja by Jeroen Janssen & Arezoo Moradi",
-          "text": "Text"
-        },
+  "yaw": -0.4918067532486443,
+  "pitch": -0.27354274228089537,
+  "title": "Kitja by Jeroen Janssen & Arezoo Moradi",
+  "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>German version</strong></p><p>Während des Zweiten Weltkrieges wurden überall in Europa zehntausende Sinti und Roma von den Nationalsozialisten ermordet. Von Lager Westerbork und der Dossinkazerne aus fuhren Züge mit hunderten von Sinti und Roma nach Auschwitz-Birkenau. Die Männer und Frauen, die als 'arbeitstauglich' galten, wurden von dort aus teilweise wieder in andere Konzentrationslager, wie Neuengamme, deportiert.</p><p>Die Verfolgung der Sinti und Roma ist eine Geschichte, die nach Kriegsende schnell aus dem Gedächtnis verschwand. Daher wurde diese Verfolgung gewissermaßen ein 'vergessener Genozid'.</p><p>Viele Sinti und Roma lebten noch für Jahrzehnte in dem langen Schatten ihrer Vergangenheit. Trauer, Angst und sogar ein Gefühl der Schuld zerfraßen die Menschen. Daraus folgte, dass nur sehr wenige Augenzeugen in den letzten 80 Jahren mit ihren Geschichten in die Öffentlichkeit traten. Vielen schien es besser, nach vorne in eine hoffentlich bessere Zukunft zu schauen - eine Perspektive aus der Kultur der Sinti und Roma, um den Überlebenden schließlich ihren Frieden zu gewähren.</p><p>Für dieses Projekt entschied sich die belgische Sintezza Gina, ihrer Geschichte zu teilen. Jeroen Janssen und Arezoo Moradi sprachen lange mit ihr über ihre Familiengeschichte und basierten ihre Graphic Novel auf der Erzählung, die diese starke Enkelin der in der Graphic Novel dargestellten Überlebenden, weitergeben wollte.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>During the Second World War, hundreds of thousands of Sinti and Roma from all throughout Europe were murdered by the Nazis. From Camp Westerbork and the Dossinkazerne, trains carrying hundreds of Sinti and Roma left for Auschwitz-Birkenau. The men and women who were 'fit for work' were eventually sent on to other concentration camps, like Neuengamme.</p><p>It is a history that quickly disappeared from collective memory after the liberation. Consequently, this persecution became a 'forgotten Holocaust' in many cases.</p><p>Many Sinti and Roma themselves lived in the long shadow of the past for decades. Sadness, fear, and guilt tore the people apart. As a result, in the past 80 years, very few eyewitnesses publicly stepped forward with their story. It was better to look ahead to a hopefully better future - a perspective from the culture of the Sinti and Roma - to give the survivors their peace as well.</p><p>For this project, the Belgian Sintezza Gina did decide to come forward. Jeroen Janssen and Arezoo Moradi spoke with her extensively and based their work on the stories this brave granddaughter of the depicted survivor had to tell.</p></div>"
+}
+,
         {
         "yaw": 0.8144389466853461,
         "pitch": 0.10418140616283367,
@@ -458,15 +459,16 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -2.332539126785079,
-          "pitch": -0.43007323361987027,
-          "title": "Putten",
-          "text": "Text"
-        },
+  "yaw": -2.332539126785079,
+  "pitch": -0.43007323361987027,
+  "title": "Putten",
+  "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>German version</strong></p><p>In der Nacht des 1. Oktobers 1944 verübten niederländische Widerstandskämpfer in der Nähe von Putten einen Anschlag auf ein Fahrzeug der deutschen Besatzungsmächte. Danach erließ die Zentrale der deutschen Wehrmacht in Hilversum den Befehl zur Durchführung einer 'Vergeltungsmaßnahme' in Putten.</p><p>Am 1. Oktober umstellte die Wehrmacht die Stadt und ließ alle Einwohner und Einwohnerinnen versammeln. Der Kommandant und Heerführer Friedrich Christiansen befahl, alle arbeitsfähigen Männer zu verhaften und Frauen, Kinder sowie ältere Menschen aus der Stadt zu verweisen. Weite Teile der Stadt wurden niedergebrannt. Ein Großteil der Männer wurde über das Lager Amersfoort in das KZ Neuengamme und seine Außenlager Ladelund und Husum-Schwesing deportiert, wo sie schwere körperliche Arbeiten, zum Beispiel das Ausheben von Panzerabwehrgräben, ausführen mussten.</p><p>Viele Männer starben an Mangelernährung, Verletzungen und Krankheiten sowie bei der sogenannten 'Evakuierung' der Lager kurz vor Kriegsende.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>On the night of 1 October 1944, Dutch resistance fighters carried out an attack on a vehicle used by German occupying forces near the municipality of Putten. The German Wehrmacht headquarters in Hilversum then issued an order to carry out a 'retaliatory action' in Putten.</p><p>On 1 October, the Wehrmacht surrounded the village and rounded up the inhabitants. The German Wehrmacht commander General Friedrich Christiansen ordered all able-bodied men to be arrested, and women, children, and the elderly to be expelled from the village. Large parts of the settlement were burnt down.</p><p>Most of the men from Putten were deported via Camp Amersfoort to the Neuengamme concentration camp and its satellite camps Ladelund and Husum-Schwesing, where they were forced to perform hard physical labour, such as digging anti-tank trenches.</p><p>Many died from malnutrition, injuries and illness, as well as during the so-called 'evacuation' of the camps shortly before the end of the war.</p></div>"
+}
+,
         {
           "yaw": -1.1737253478830265,
           "pitch": 0.05935095606703733,
-          "title": "Putten Audio",
+          "title": "Putten (3:31 min)",
           "text": "<audio controls preload='metadata'><source src='audio/putten.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
@@ -527,15 +529,16 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 3.132833725692681,
-          "pitch": -0.31695911361861917,
-          "title": "Alphons",
-          "text": "Text"
-        },
+  "yaw": 3.132833725692681,
+  "pitch": -0.31695911361861917,
+  "title": "Alphons",
+  "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>German version</strong></p><p>Die hier dargestellte illustrierte Lebensgeschichte ist Erik Graafs Erzählung der Erlebnisse von Alphons Katan (geboren 1930).</p><p>Vor dem Krieg lebte Alphons mit seinen Eltern in Leeuwarden. Sein Vater war Ökonom und Lehrer in einer Sekundarschule. Außerdem war er vereidigter Übersetzer und sprach nicht weniger als sechs Sprachen. Aufgrund einer Behinderung war sein Vater weitgehend ans Haus gebunden.</p><p>Nachdem seine Eltern 1942 kurz nacheinander verhaftet worden waren, kam der 12-jährige Alphons bei jüdischen Freunden unter. Zusammen mit diesem älteren Ehepaar wurde auch er dann gefangengenommen und nach Westerbork deportiert, wo er für ein halbes Jahr inhaftiert war.</p><p>Nach seiner wundersamen Freilassung – eine Tante schaffte es, die Nazis davon zu überzeugen, dass Alphons nur 'halb-jüdisch' sei – erlebte Alphons die Befreiung in Leiden. Seine Mutter wurde in Auschwitz ermordet. Der Vater fand in Mauthausen auf grauenhafte Art und Weise den Tod.</p><p>Nach seiner Pensionierung begann Alphons, Gastvorträge für Kinder und Jugendliche in der Herinnerings-centrum Kamp Westerbork zu halten – über das, was er erlebt hatte, und über die Auswirkungen des Krieges auf sein gesamtes Leben. Als Zeichen dafür, dass die Befreiung von 1945 für viele keine Befreiung gewesen war, und eine Wiederholung in der Zukunft zu verhindern.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>This illustrated personal history is Erik de Graaf’s narration of the experiences of Alphons Katan (1930).</p><p>Before the war, Alphons lived in Leeuwarden with his parents. Father Katan was an economist and teacher at a secondary school. He was a sworn-in translator and spoke no less than six languages. As a result of disability, father was confined to the house.</p><p>After his parents were arrested in quick succession in 1942, 12-year-old Alphons ended up with Jewish friends. Along with this older married couple, he was captured and brought to Westerbork, where he was eventually imprisoned for half a year.</p><p>After his miraculous release from the camp – an aunt managed to convince the Nazis that Alphons was 'half Jewish' – Alphons experienced the liberation in Leiden. His parents met a different fate. Mother was murdered in Auschwitz. Father found his death in Mauthausen, in a horrific way.</p><p>After he retired, Alphons started guest lecturing children and adolescents for the Herinnerings-centrum Kamp Westerbork, about what he&#39;d been through and about the unavoidable impact the war had on his life – as a sign that the liberation in 1945 wasn&#39;t liberation for many, and to prevent repetition in the future.</p></div>"
+}
+,
           {
           "yaw": -1.6770486479568465,
           "pitch": 0.047046572598659964,
-          "title": "Alphons Audio",
+          "title": "Alphons (3:37 min)",
           "text": "<audio controls preload='metadata'><source src='audio/alphons.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
           }
       ]
@@ -598,13 +601,28 @@ var APP_DATA = {
         {
           "yaw": -0.47390259828307535,
           "pitch": -0.3019588842391947,
-          "title": "Nicht in meinem Garten",
-          "text": "Text"
+          "title": "Not in my Backyard ",
+          "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'>
+  <p><strong>German version</strong></p>
+  <p>Am 9. Oktober 1939 wurde das Zentrale Flüchtlingslager durch die Ankunft von 22 Flüchtlingen eröffnet. Diese Maßnahme war das letzte Kapitel einer monatelangen Suche nach einem geeigneten Standort für das sogenannte 'Judenlager'.</p>
+  <p>Westerbork wurde von der Niederländisch-Jüdischen Gemeinschaft finanziert und den Flüchtlingen als ein Lager im ‚wunderschönen Drenthe‘ mit rustikalen Holzbaracken, Zentralheizung und modernen Sanitäranlagen präsentiert. Es wuchs nach seiner Eröffnung rasch an.</p>
+  <p>Ende Januar 1940 hatte das Lager 167 Einwohner; drei Monate später lebten fast 750 Flüchtlinge dort. Nur wenige der Versprechen über die guten Bedingungen wurden eingehalten, und die Einwohner nahmen ihre Unterkunft zunehmend als Konzentrationslager wahr.</p>
+  <p>Das Zentrale Flüchtlingslager Westerbork blieb bis zum 1. Juli 1942 bestehen. Dann übernahmen die Nationalsozialisten das Lager und Westerbork wurde ein Durchgangslager, das für die Deportationen von über 100.000 Menschen ‚in den Osten‘ genutzt wurde.</p>
+  <p>Nur wenige der tausenden jüdischen Flüchtlinge, die sich 1939–1942 in Westerbork aufhalten mussten, überlebten den Zweiten Weltkrieg.</p>
+  <hr style='margin:10px 0; opacity:.35'>
+  <p><strong>English version</strong></p>
+  <p>On 9 October 1939, the Central Refugee Camp Westerbork was opened with the arrival of 22 Jewish refugees. The commissioning was the closing chapter of a months-long search for a suitable location for the so-called ‘Jew camp’.</p>
+  <p>Camp Westerbork, financed by the Dutch-Jewish community and presented to the refugees as a camp in ‘beautiful Drenthe’ with crisp wooden barracks equipped with central heating and excellent sanitary facilities, grew rapidly after opening.</p>
+  <p>At the end of January 1940, the number of residents had amounted to 167; three months later, nearly 750 refugees resided there. Few of the promises about good facilities were actually kept, and residents increasingly experienced their accommodations as a concentration camp.</p>
+  <p>Central Refugee Camp Westerbork continued to exist until 1 July 1942. At that point, the Nazis took over the camp, and Westerbork became a Durchgangslager used for the deportation of more than 100,000 people to the camps ‘in the East’.</p>
+  <p>Of the few thousand Jewish refugees who resided in Camp Westerbork in the period 1939–1942, only a small number survived the Second World War.</p>
+</div>"
+"
         },
         {
           "yaw": 0.8137999490040375,
           "pitch": 0.06670752459146101,
-          "title": "Nicht in meinem Garten Audio",
+          "title": "Not in my Backyard (2:17 min)",
           "text": "<audio controls preload='metadata'><source src='audio/not-in-my-backyarden.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
         }
       ]
