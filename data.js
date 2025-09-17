@@ -413,8 +413,8 @@ var APP_DATA = {
 }
 ,
         {
-        "yaw": 0.8144389466853461,
-        "pitch": 0.10418140616283367,
+        "yaw": 0.3574799223994969,
+        "pitch": 0.052427824498870734,
         "title": "Kitja (4:53 min)",
         "text": "<audio controls preload='metadata'><source src='audio/kitja.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
 }
