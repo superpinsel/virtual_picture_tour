@@ -754,16 +754,10 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -0.7586088765324632,
-          "pitch": 0.06919023236716271,
-          "title": "Nazi Atrocities",
-          "text": "Text"
-        },
-        {
           "yaw": -0.21225948566597275,
           "pitch": 0.04585515726610545,
-          "title": "Comic and Manga",
-          "text": "Text"
+          "title": "Comic and the Second World War",
+          "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>German version</strong></p><p>Um das Geschehene im Herzen Europas sichtbar zu machen, machte sich 1944 ein amerikanischer Illustrator an eine Darstellung der Ereignisse nach der Ankunft eines Deportationszuges.</p> Als einer der ersten Zeichner zeigte August M. Fröhlich die letzten Schritte des Vernichtungsprozesses, indem er sie in einem kurzen Comic darstellte. Dieser Comic wurde Anfang 1945 veröffentlicht, als die meisten nationalsozialistischen Vernichtungslager noch in Betrieb waren. In den folgenden Jahren begannen auch andere Zeichner Comics zu nutzen, um der Öffentlichkeit die Geschichte des Zweiten Weltkriegs zu vermitteln.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>In an attempt to make what went on in the heart of Europe somewhat imaginable, in 1944, an American illustrator made an effort to depict what happend after the arrival of a deportation train.</p><p>As one of the first illustrators to do so, August M. Froehlich made the final elements of the extermination process explicit by depicting them in a short comic. This comic was published in 1945, when the majority of German extermination camps were still going in full swing.</p><p>In the years that followed, other illustrators also started turning to comics to convey the story of the Second World War to the general public.</p></div>"
         },
 {
   "yaw": 2.3278730355884862,
