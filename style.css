@@ -909,3 +909,27 @@ body.view-control-buttons .viewControlButton {
 .desktop .info-hotspot.visible:not(:has(audio)) .info-hotspot-header { width: calc(var(--hotspotW) - 40px) !important; }
 .info-hotspot:not(:has(audio)) .info-hotspot-close-wrapper { left: calc(var(--hotspotW) - 40px) !important; }
 .desktop .info-hotspot.visible:not(:has(audio)) .info-hotspot-title-wrapper { width: calc(var(--hotspotW) - 80px) !important; }
+
+/* Audio-Hotspots schmal halten (nahe am Marzipano-Default) */
+.info-hotspot:has(audio) {
+  max-width: 300px !important;   /* optional: schränkt den Wrapper ein */
+  width: auto !important;
+}
+.info-hotspot:has(audio) .info-hotspot-text {
+  width: 300px !important;
+  max-height: 200px !important;
+}
+/* Header & Close-Button passend zur schmalen Box */
+.desktop .info-hotspot.visible:has(audio) .info-hotspot-header,
+.desktop.no-touch .info-hotspot.visible:has(audio) .info-hotspot-header:hover {
+  width: 260px !important;
+}
+.info-hotspot:has(audio) .info-hotspot-close-wrapper {
+  left: 260px !important;
+}
+/* Titel-Streifen */
+.desktop .info-hotspot.visible:has(audio) .info-hotspot-title-wrapper,
+.desktop.no-touch .info-hotspot:has(audio) .info-hotspot-header:hover .info-hotspot-title-wrapper {
+  width: 220px !important;
+  padding: 0 5px !important;
+}
