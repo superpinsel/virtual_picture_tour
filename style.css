@@ -2324,3 +2324,42 @@ body.view-control-buttons .viewControlButton {
 
 /* keep labels bold */
 .info-hotspot .info-hotspot-text strong { font-weight: 700; }
+/* === Info-Hotspot: Header so breit wie die Textbox + Titel sichtbar === */
+:root { --hotspot-text-w: 560px; }                 /* Desktop-Breite anpassen */
+@media (max-width: 700px) { :root { --hotspot-text-w: 92vw; } }
+
+/* Textbox-Breite */
+.info-hotspot .info-hotspot-text{
+  width: var(--hotspot-text-w) !important;
+  max-height: 65vh; overflow: auto;
+  font-size: 13px; line-height: 1.55;
+}
+
+/* Graues Headerband = Textboxbreite minus 40px (Platz für Close-Block) */
+.desktop .info-hotspot.visible .info-hotspot-header,
+.desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover{
+  width: calc(var(--hotspot-text-w) - 40px) !important;
+  border-radius: 5px 0 0 0 !important;
+}
+
+/* Close-Block direkt rechts am Header ausrichten */
+.info-hotspot .info-hotspot-close-wrapper{
+  left: calc(var(--hotspot-text-w) - 40px) !important;
+}
+
+/* Titelstreifen auf volle Breite ausklappen (abzüglich Icon+Close) */
+.desktop .info-hotspot.visible .info-hotspot-title-wrapper,
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper{
+  width: calc(var(--hotspot-text-w) - 80px) !important; /* -40 Icon, -40 Close */
+  padding: 0 6px !important;
+}
+
+/* Titel lesbar machen */
+.info-hotspot .info-hotspot-title{
+  display: block !important;
+  font-weight: 600; font-size: 16px; line-height: 40px;
+  white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+}
+
+/* Labels wie “German/English version” fett lassen */
+.info-hotspot .info-hotspot-text strong{ font
