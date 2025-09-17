@@ -1009,3 +1009,52 @@ body.view-control-buttons .viewControlButton {
 }
 
 /* Keep audio hotspot content at default width; only its title shows now */
+
+/* ===== Info-hotspot: consistent widths + audio vs text sizing ===== */
+/* Tweak these two numbers only */
+:root{
+  --hotspotTextW: 560px;   /* width for text hotspots (header + body) */
+  --hotspotAudioW: 380px;  /* width for audio hotspots (header + body) */
+}
+
+/* 0) keep the small round bubble by default (closed, not hovered) */
+.info-hotspot .info-hotspot-header{
+  width: 40px;             /* (50px on mobile via your existing rule) */
+  border-radius: 20px;
+}
+
+/* 1) When OPEN, make header the same width as the body */
+.desktop .info-hotspot.visible:not(:has(audio)) .info-hotspot-header{ width: var(--hotspotTextW); border-radius: 5px; }
+.desktop .info-hotspot.visible:has(audio)         .info-hotspot-header{ width: var(--hotspotAudioW); border-radius: 5px; }
+
+/* 2) When HOVER (but still closed), show a tidy title bubble – smaller for audio */
+.desktop.no-touch .info-hotspot:not(.visible):not(:has(audio)) .info-hotspot-header:hover{ width: var(--hotspotTextW); border-radius: 5px; }
+.desktop.no-touch .info-hotspot:not(.visible):has(audio)         .info-hotspot-header:hover{ width: var(--hotspotAudioW); border-radius: 5px; }
+
+/* 3) Title area should fill the header width (minus the 40px icon) */
+.desktop .info-hotspot.visible .info-hotspot-title-wrapper,
+.desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper{
+  width: calc(100% - 40px) !important;  /* 40px = icon area */
+  padding: 0 8px;
+}
+
+/* 4) Put the close button at the header’s right edge */
+.info-hotspot:not(:has(audio)) .info-hotspot-close-wrapper{ left: var(--hotspotTextW); }
+.info-hotspot:has(audio)         .info-hotspot-close-wrapper{ left: var(--hotspotAudioW); }
+
+/* 5) Make the BODY the same width as the header */
+.info-hotspot:not(:has(audio)) .info-hotspot-text{ width: var(--hotspotTextW); }
+.info-hotspot:has(audio)         .info-hotspot-text{ width: var(--hotspotAudioW); }
+
+/* 6) Nice, compact one-line titles in the header bubble */
+.info-hotspot .info-hotspot-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* (Optional) Mobile: if you want the hover/open widths a touch smaller on phones
+@media (max-width: 600px){
+  :root{ --hotspotTextW: 90vw; --hotspotAudioW: 78vw; }
+}
+*/
