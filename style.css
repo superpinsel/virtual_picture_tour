@@ -23,7 +23,7 @@ html, body {
   margin: 0;
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   background-color: #000;
   color: #fff;
 }
@@ -831,13 +831,13 @@ body.view-control-buttons .viewControlButton {
 /* === Bigger Info Hotspots (global) === */
 .info-hotspot {
   /* Breite */
-  max-width: 720px;           /* vorher ~320px */
-  width: min(92vw, 720px);    /* auf kleinen Screens nicht überlaufen */
+  max-width: 800px;           /* vorher ~320px */
+  width: min(92vw, 800px);    /* auf kleinen Screens nicht überlaufen */
 }
 
 .info-hotspot .info-hotspot-text {
   /* Höhe / Scrollbarkeit */
-  max-height: 70vh;           /* mehr Inhalt sichtbar */
+  max-height: 80vh;           /* mehr Inhalt sichtbar */
   overflow: auto;
 
   /* Lesbarkeit (anpassen nach Wunsch) */
@@ -847,8 +847,8 @@ body.view-control-buttons .viewControlButton {
 
 /* Optional: Titel etwas präsenter */
 .info-hotspot .info-hotspot-title {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* Mobile-Feinschliff */
@@ -857,16 +857,16 @@ body.view-control-buttons .viewControlButton {
   .info-hotspot .info-hotspot-text { max-height: 60vh; }
 }
 .info-hotspot .info-hotspot-text strong {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @media (min-width: 800px) {
   .info-hotspot .info-hotspot-text strong {
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: .2px;
   }
 }
 /* Make language section labels bold inside info hotspots */
 .info-hotspot .info-hotspot-text strong {
-  font-weight: 700;
+  font-weight: 600;
 }
