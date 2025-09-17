@@ -871,7 +871,7 @@ body.view-control-buttons .viewControlButton {
   font-weight: 600;
 }
 /* === Einheitliche Breite für Info-Hotspots (ein Wert steuert alles) === */
-.info-hotspot { --hotspotW: 800px; }               /* <- HIER Breite ändern */
+.info-hotspot { --hotspotW: 650px; }               /* <- HIER Breite ändern */
 
 /* Headerbreite = Gesamtbreite minus 40px für den Close-Button */
 .desktop .info-hotspot.visible .info-hotspot-header,
@@ -902,6 +902,6 @@ body.view-control-buttons .viewControlButton {
 }
 
 /* Optional: mobil automatisch anpassen */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .info-hotspot { --hotspotW: 92vw; }
 }
