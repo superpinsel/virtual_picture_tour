@@ -765,18 +765,18 @@ var APP_DATA = {
           "title": "Comic and Manga",
           "text": "Text"
         },
-        {
-          "yaw": 2.3278730355884862,
-          "pitch": -0.2896162352172542,
-          "title": "Der Fall Paridean",
-          "text": "Text"
-        },
+{
+  "yaw": 2.3278730355884862,
+  "pitch": -0.2896162352172542,
+  "title": "The Paridean Case by Milan Hulsing",
+  "text": "<div style='font-size:13px; line-height:1.5; max-height:60vh; overflow:auto'><p><strong>German version</strong></p><p>Während des Krieges war der Militärpolizist Herman Paridaen (geboren 1919) Wachmann des kleinen Gefängnisses in Westerbork. In diesem noch vor dem Krieg erbauten Gebäude wurden Gefangene, die gegen die Regeln des Lagers verstoßen hatten, eingesperrt.</p><p>Paridaens Verhalten als Wachmann in Westerbork wurde von anderen Militärpolizisten als brutal beschrieben. Während seines Gerichtsprozesses im Jahr 1947 sagten sie aus, Paridaen gesehen zu haben, wie er Gefangene trat, sie bei etlichen Gelegenheiten schlug und sie oft beschimpfte. Dies tat er im Lager, aber auch zum Beispiel, wenn er die Männer, Frauen und Kinder aus der nahegelegenen Stadt Assen abholte.</p><p>Überlebende, die sich im Westerbork-Gefängnis befunden hatten, äußerten allerdings, dass Paridaens Verhalten eine Art Fassade gewesen sei. Im Gefängnis habe Paridaen die Menschen mit extra Essen versorgt, ihnen etwas Geld gegeben und versucht, ihr Leben so erträglich wie möglich zu machen. Diese Aussagen über Hilfeleistungen waren der Grund dafür, dass Paridaen nur eine milde Strafe von sechs Monaten Gefängnis erhielt. 1949 wurde er im Berufungsverfahren rehabilitiert.</p><p>Paridaen, den das Gericht als einen &#39;Mann mit zwei Gesichtern&#39; bezeichnete, wanderte 1950 nach Kanada aus und schaffte es, sich dort ein neues Leben aufzubauen. Er starb 2008.</p><hr style='margin:10px 0; opacity:.35'><p><strong>English version</strong></p><p>During the war, military policeman Herman Paridaen (1919) was the guard of a small prison in Camp Westerbork. In this pre-war building, prisoners who had violated the rules of the camp were locked up.</p><p>The behaviour Paridaen displayed in Westerbork was considered reprehensible by other military policemen. During his trial in 1947, they testified to have seen Paridaen kicking prisoners, hitting them on occasion, and often scolding them — in the camp, but also when picking the men, women, and children up from the nearby town of Assen, for example.</p><p>Survivors who had been in the prison barrack, however, claimed that Paridaen&#39;s behaviour was a mere façade: in the prison, Paridaen had in fact provided people with extra food, given them some money, and attempted to make life as bearable as possible.</p><p>This offered help was the reason why Paridaen, who was on trial in 1947 in part due to the event depicted in the comic, only received a mild sentence: six months in prison, with credit for time served. In 1949, he was acquitted on appeal.</p><p>Paridaen — a &#39;man with two faces&#39;, as the court put it — emigrated to Canada in 1950, where he managed to build a new life for himself. He died in 2008.</p></div>"
+},
         {
           "yaw": -3.1090516280145373,
           "pitch": 0.018825469700676223,
-          "title": "Paridaen",
-          "text": "Text"
-        }
+          "title": "Paridaen (1:43 min)",
+          "text": "<audio controls preload='metadata'><source src='audio/paridean.mp3' type='audio/mpeg'></audio><p style='font-size:12px;margin-top:8px;opacity:.85'>If the audio doesn't start, reload the page and try again.</p>"
+        },
       ]
     },
     {
