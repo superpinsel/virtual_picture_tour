@@ -617,7 +617,6 @@ var APP_DATA = {
   <p>Central Refugee Camp Westerbork continued to exist until 1 July 1942. At that point, the Nazis took over the camp, and Westerbork became a Durchgangslager used for the deportation of more than 100,000 people to the camps ‘in the East’.</p>
   <p>Of the few thousand Jewish refugees who resided in Camp Westerbork in the period 1939–1942, only a small number survived the Second World War.</p>
 </div>"
-"
         },
         {
           "yaw": 0.8137999490040375,
